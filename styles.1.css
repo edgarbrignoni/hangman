@@ -1,0 +1,12 @@
+body {
+	background: white;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 30px;
+}
+input {
+	border: 2px solid #999;
+	font-family: Helvetica, sans-serif;
+	color: #999;
+	font-size: 30px;
+}

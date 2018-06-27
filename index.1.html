@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>My First Hangman</title>
+	<link rel="stylesheet" type="text/css" href="styles.1.css">
+</head>
+<body onload="loadListener();">
+	<h1>Hangman</h1>
+	<p id="screenLetters"></p>
+	<input id="guessedChar" type="text" size="3" maxlength="1">
+	<input type="button" value="Guess" onClick="letterMatches()">
+	
+	<p id="wrongSreen">Wrong Letters:</p>
+	<img src="http://projects.breatheco.de/p/javascript/junior/games/hangman/assets/hangman0.png" id="hangman"><br />
+	<input name="refresh" type="button" value="New Game" onClick="location.reload()">
+	<script type="text/javascript" src="script.1.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>My First Hangman</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1>Hangman</h1>
+	<div id="content">
+		<p id="letters"></p>
+		<input id="guessedChar" type="text" size="5" maxlength="1">
+		<input type="button" value="Guess" onClick="checkChar()">
+
+		<p id="wrong">Wrong Letters: 0</p>
+		<img id="hangman" src="./img/hangman0.png"><br />
+		<input name="refresh" type="button" value="New Game" onClick="location.reload()">
+
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
